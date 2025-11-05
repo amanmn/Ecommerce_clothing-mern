@@ -1,5 +1,5 @@
 import React from 'react'
-import './footer.css'
+import './Footer.css'
 import footer_logo from '../../Assets/logo.png'
 import instagram_icon from '../../Assets/instagram_icon.png'
 import pinterest_icon from '../../Assets/pintester_icon.png'
