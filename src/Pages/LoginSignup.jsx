@@ -1,4 +1,4 @@
-import Button from "../Components/ui/Button"
+import { Button } from "../Components/ui/Button"
 import {
   Card,
   CardAction,
@@ -8,8 +8,8 @@ import {
   CardHeader,
   CardTitle,
 } from "../Components/ui/Card"
-import Input from "../Components/ui/Input"
-import Label from "../Components/ui/label"
+import { Input } from "../Components/ui/Input"
+import { Label } from "../Components/ui/label"
 function LoginSignUp() {
   return (
     <Card className="w-full my-10 mx-auto bg-opacity-30 max-w-lg">

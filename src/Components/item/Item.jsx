@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Item.css"
+
 const Item = (props) => {
   return (
     <div className='item'>
@@ -19,4 +20,4 @@ const Item = (props) => {
   )
 }
 
-export default Item
+export default Item;
