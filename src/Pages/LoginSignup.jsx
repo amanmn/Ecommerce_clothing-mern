@@ -1,4 +1,4 @@
-import { Button } from "../Components/ui/button"
+import { Button } from "../Components/ui/Button"
 import {
   Card,
   CardAction,
@@ -7,9 +7,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "../Components/ui/card"
-import { Input } from "../components/ui/input"
-import { Label } from "../components/ui/label"
+} from "../Components/ui/Card"
+import { Input } from "../Components/ui/Input"
+import { Label } from "../Components/ui/Label"
 
 function LoginSignUp() {
   return (
@@ -40,7 +40,7 @@ function LoginSignUp() {
               <Input
                 id="email"
                 type="email"
-                placeholder="m@example.com"
+                placeholder="email@example.com"
                 required
               />
             </div>
